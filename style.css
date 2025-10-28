@@ -1,0 +1,31 @@
+body{
+    background: url("./SPACE.webp");
+    background-size: cover;
+    overflow: hidden;
+}
+#R{
+   animation-name: Ro;
+   animation-duration: 5s;
+   position: relative;
+   top: 400px;
+
+}
+#A{
+    animation-name: As;
+   animation-duration: 6s;
+   position: relative;
+   
+}
+
+@keyframes As {
+    from{top: 0px;left: 0px;
+    transform: rotate(30deg);}
+    to{top: 400px;left: 300px;
+    transform: rotate(360deg);}
+    
+}
+@keyframes Ro{
+    from{top: 400px; left: 0px;height: 200px;}
+    to{left: 800px;top: 0px;height: 10px;
+    }
+}
